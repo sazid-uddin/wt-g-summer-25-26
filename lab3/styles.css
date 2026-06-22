@@ -1,0 +1,33 @@
+/* External CSS (needs .css file) */
+h1, p, #firstName, .input-style {
+	color: red;
+	background-color: green;
+}
+
+/* <h2> */
+h2 {
+	text-align: right;
+}
+
+/* <p></p> */
+p {
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+/* <my-heading> */
+#my-heading {
+	border: 5px dashed blue;
+}
+
+.input-style {
+/* #firstName, #lastName { */
+	background-color: grey;
+	border-radius: 5px;
+}
+
+/* universal selector */
+* {
+	text-align: center;
+}
