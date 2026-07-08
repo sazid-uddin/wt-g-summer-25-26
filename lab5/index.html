@@ -20,14 +20,14 @@
 	<button id="my_btn">Click me to change HTML elements</button>
 	<script>
 		document.addEventListener("DOMContentLoaded", ()=>{
-			document.writeln("TEST Doc Write"); // NEED EVENT LISTENER
+			//document.writeln("TEST Doc Write"); // NEED EVENT LISTENER
 		});
 	</script>
 	<script>
+		var my_h1 = document.getElementById("heading");
+		console.log(my_h1);
 		var my_button = document.getElementById("my_btn");
 		my_button.addEventListener("click", () => {
-			var my_h1 = document.getElementById("heading");
-			console.log(my_h1);
 			my_h1.innerText = "test";
 
 			var my_row = document.getElementById("my_row");
